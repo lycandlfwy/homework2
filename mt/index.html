@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>美团的首页</title>
+	<!-- base文件是在index文件之前 -->
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script defer  src="js/all.min.js"></script>
+</head>
+<body>
+	<!-- 首页的主体 -->
+	<div class="mt_layout">
+		<!-- 头部搜索 -->
+		<header>
+			<div class="mt_header_box">
+				<a href="" class="icon"></a>
+				
+				<!-- 搜索按钮 -->
+				<form action="#">
+					<select id="field" name="field" >
+						<option value="maoming">阳江</option>
+						<option value="maoming">茂名</option>
+						<option value="maoming">广州</option>
+						<option value="maoming">佛山</option>
+						<option value="maoming">东莞</option>
+						<option value="maoming">深圳</option>
+					</select>
+
+			
+					<span class="icon_search"></span>
+					<!-- input search 对象是css3的新增内容 -->
+					<input type="search" placeholder="重庆石锅鱼">
+					<span class="tb-1"><img src="images/jh.png" alt=""></span>
+				</form>
+			</div>
+		</header>
+		<div class="mt1 mt1-1">
+			<ul class="clearfix">
+				<li>
+					<a href="">
+						<img src="images/saoma.png" alt="">
+						<p>扫一扫</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/fk.png" alt="">
+						<p>付款码</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/kq.png" alt="">
+						<p>红包/卡券</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/gj.png" alt="">
+						<p>乘公交</p>
+					</a>
+					
+				</li>
+			</ul>
+
+		</div>
+		<div class="mt1 mt2">
+			<ul class="clearfix">
+				<li>
+					<a href="">
+					<img src="images/meis.png" alt="" class="ms">
+						<p>美食</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/m1.png" alt="" class="dy">
+						<p>电影/演出</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/jd.png" alt="" class="jd">
+						<p>酒店住宿</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/xx.png" alt="" class="xx">
+						<p>休闲娱乐</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/wm.png" alt="" class="wm">
+						<p>外卖</p>
+					</a>
+					
+				</li>
+			</ul>
+
+		</div>
+		<!-- 导航 -->
+		<nav class="mt1 mt3">
+			<ul class="clearfix">
+				<li>
+					<a href="">
+						<img src="images/mf.png" alt="" class="mf">
+						<p>丽人/美发</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/jq.png" alt="">
+						<p>借钱</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/ly.png" alt="">
+						<p>周边游/旅游</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/cs.png" alt="">
+						<p>超市/生鲜</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/fw.png" alt="">
+						<p>生活服务</p>
+					</a>
+					
+				</li>
+				
+			</ul>
+			<ul class="clearfix">
+				<li>
+					<a href="">
+						<img src="images/sy.png" alt="">
+						<p>结婚/摄影</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/mp.png" alt="">
+						<p>景点/门票</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/hb.png" alt="">
+						<p>签到领现金</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/jr.png" alt="">
+						<p>亲子/乐园</p>
+					</a>
+					
+				</li>
+				<li>
+					<a href="">
+						<img src="images/gd.png" alt="">
+						<p>更多</p>
+					</a>
+					
+				</li>
+			</ul>
+		</nav>
+		
+		<!-- 轮播图 -->
+		<div class="mt_banner1 clearfix">
+			<!-- ul>li*8>a>img[images/l$.jpg] + ctrl + E -->
+			<ul class="clearfix">
+				<li><a href="#"><img src="images/bn5.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn1.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn2.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn3.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn4.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn5.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn1.png" alt=""></a></li>
+				<!-- <li><a href="#"><img src="images/bn1.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn1.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn1.png" alt=""></a></li>
+				<li><a href="#"><img src="images/bn1.png" alt=""></a></li> -->
+			</ul>
+			<!-- ul>li*8 ctrl+e -->
+			<ul>
+				<li class="now"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<!-- <li></li>
+				<li></li>
+				<li></li> -->
+			</ul>
+		</div>
+		<div class="mt4 clearfix">
+			<div class="clearfix">
+				<span class="p1 span2 span5">益和堂(名扬广场店)</span>
+				<span class="span1 span6">外卖</span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix">
+				<span class="span1">
+					<p class="p2">4.6分</p>
+					<span class="span3 p4">优惠</span>
+				</span>
+				<span class="span2">
+					<p class="p3">| 起送价￥10配送费￥4</p>
+					<span class="span4 p4">  新用户立减5元</span>
+					</span>
+					<span class="span1 span7">
+						<p class="p3">30分钟送达</p>
+					</span>			
+			</div>
+				<div class="clearfix"></div>
+			<div class="clearfix ">
+				<span class="span9">点评高分店铺</span>
+			</div>
+		
+				
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt1 mt3-1 mt3-2">
+					<!-- <div class="yht"><a href="#"><img src="images/avatar.jpg" alt=""></a></div>
+					<div class="yht"><a href="#"><img src="images/avatar.jpg" alt=""></a></div>
+					<div class="yht"><a href="#"><img src="images/avatar.jpg" alt=""></a></div> --><!-- &times; -->
+					<ul class="clearfix">
+						<li>
+							<a href="">
+								<img src="images/yht1.png" alt="" class="mf">
+								<p>冰激凌抹茶</p>
+							</a>
+							
+						</li>
+						<li>
+							<a href="">
+								<img src="images/yht2.png" alt="">
+								<p>烤奶</p>
+							</a>
+							
+						</li>
+						<li>
+							<a href="">
+								<img src="images/yht3.png" alt="">
+								<p>金桔柠檬</p>
+							</a>
+							
+						</li>
+					</ul>
+			</div>
+
+		</div>
+		<div class="mt4">
+			<div class="clearfix">
+				<span class="p1 span2 span5-1"><a href="https://waimai.meituan.com/restaurant/144841743561422347?from=search&keyword=%E8%A1%97%E8%A7%92">街角小甜</a></span>
+				<span class="span1 span6">外卖</span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix">
+				<span class="span1">
+					<p class="p2">4.6分</p>
+					<span class="span3 p4">优惠</span>
+				</span>
+				<span class="span2">
+					<p class="p3">| 起送价￥15配送费￥4</p>
+					<span class="span4 p4">满20减10</span>
+					</span>
+					<span class="span1 span7">
+						<p class="p3">33分钟送达</p>
+					</span>			
+			</div>
+			<div class="clearfix"></div>
+
+		
+				
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt1 mt3-1 mt3-2">
+					<!-- <div class="yht"><a href="#"><img src="images/avatar.jpg" alt=""></a></div>
+					<div class="yht"><a href="#"><img src="images/avatar.jpg" alt=""></a></div>
+					<div class="yht"><a href="#"><img src="images/avatar.jpg" alt=""></a></div> --><!-- &times; -->
+					<ul class="clearfix">
+						<li>
+							<a href="">
+								<img src="images/sl.jpg" alt="" class="mf">
+								<p>水果沙拉</p>
+							</a>
+							
+						</li>
+						<li>
+							<a href="">
+								<img src="images/fg.jpg" alt="">
+								<p>椰丝牛奶方糕</p>
+							</a>
+							
+						</li>
+						<li>
+							<a href="">
+								<img src="images/yw.jpg" alt="">
+								<p>烧仙草芋圆</p>
+							</a>
+							
+						</li>
+					</ul>
+			</div>
+
+		</div>
+		<div class="mt4">
+			<div class="clearfix">
+				<span class="p1 span2 span5-2">华莱士炸鸡汉堡</span>
+				<span class="span1 span6">外卖</span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix">
+				<span class="span1">
+					<p class="p2">4.4分</p>
+					<span class="span3 p4">优惠</span>
+				</span>
+				<span class="span2">
+					<p class="p3">| 起送价￥15配送费￥4</p>
+					<span class="span4 p4">  满20减10，满30减15</span>
+				</span>
+				<span class="span1 span7">
+					<p class="p3">31分钟送达</p>
+				 </span>			
+			</div>
+			<div class="clearfix ">
+				<span class="span9">回头客超多</span>
+			</div>
+		
+				
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt1 mt3-1 mt3-2">
+				<ul class="clearfix">
+					<li>
+						<a href="">
+							<img src="images/cj.jpg" alt="" class="mf">
+							<p>脆皮全鸡</p>
+						</a>
+							
+					</li>
+					<li>
+						<a href="">
+							<img src="images/hd.jpg" alt="">
+							<p>甜心红豆派</p>
+						</a>
+							
+					</li>
+					<li>
+						<a href="">
+							<img src="images/hb.jpg" alt="">
+							<p>香辣鸡腿堡</p>
+						</a>
+							
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mt4 mt5">
+			<ul class="clearfix">
+				<li class="li1" >
+						<p class="p1">痘院士专业祛痘皮肤管理【祛痘+祛印2次】...</p>
+						<p>仅售10元，价值198元[祛痘+祛印2次]...</p><br>
+						<span class="span1 p2">￥10
+						</span>
+						<span class="span1 p5">￥198
+						</span>	
+						<span class="span1 p6">0.6折</span>
+						<span class="span10">&times;</span>
+						
+				</li>
+				<li class="li2">
+					<a href="">
+						<img src="images/dys.png" alt="">
+					</a>
+							
+				</li>
+			</ul>
+			
+		</div>
+		<div class="mt4 mt6">
+			<div class="clearfix mg">
+				<span class=" span5-2 span11">带爸爸吃顿“爸气”大餐></span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>				
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt6-1">
+				<ul class="clearfix">
+					<li class="li3">
+						<a href="">
+							<img src="images/kr.png" alt="" class="mf">
+							<p>花园烤肉（创业路店）</p>
+							<div class="tb1 clearfix">
+								<span class="span1 p2">￥198
+						        </span>
+						        <span class="span1 p5">￥303
+						        </span>	
+							</div>	
+						</a>
+							
+					</li>
+					<li class="li3">
+						<a href="">
+							<img src="images/hx.png" alt="">
+							<p>蚝厨海鲜餐厅（海陵岛）</p>
+							<div class="tb1 clearfix">
+								<span class="span1 p2">￥98
+						        </span>
+						        <span class="span1 p5">￥183
+						        </span>	
+							</div>
+						</a>
+							
+					</li>
+					<li class="li3">
+						<a href="">
+							<img src="images/ky.png" alt="">
+							<p>熊大纸上烤鱼（创业路）</p>
+							<div class="tb1 clearfix">
+								<span class="span1 p2">￥68
+						        </span>
+						        <span class="span1 p5">￥120
+						        </span>	
+							</div>
+						</a>
+							
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mt4">
+			<div class="clearfix mg">
+				<span class="span12">狠优惠></span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix ">
+				<p>折扣商品任你选，好物不间断</p>
+			</div>
+		
+				
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt1 mt3-1 mt3-2">
+				<ul class="clearfix">
+					<li>
+						<a href="">
+							<img src="images/tl.png" alt="" class="mf">
+							<p>探炉烤鱼（百利广场店）</p>
+						</a>
+							
+					</li>
+					<li>
+						<a href="">
+							<img src="images/ms.png" alt="">
+							<p>几米美食店</p>
+						</a>
+							
+					</li>
+					<li>
+						<a href="">
+							<img src="images/hg.png" alt="">
+							<p>小龙坎老火锅（东汇城）</p>
+						</a>
+							
+					</li>
+				</ul>
+			</div>
+		</div>	
+		<div class="mt4">
+			<div class="clearfix">
+				<span class="p1 span2 span5-2">黑记烤活鱼</span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix">
+				<p>仅售45元，价值70元的优惠套餐，欢迎体验</p>
+				<span class="span1 span7">
+					<p class="p3">3.5km</p>
+				</span>
+				<span class="span1 p2">￥45
+				</span>
+				<span class="span1 p5">￥70
+				</span>	
+				<span class="span1 p6">6.5折</span>			
+			</div>
+			
+		
+				
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt7">
+				<ul class="clearfix">
+					<li class="li4">
+						<a href="">
+							<img src="images/hj1.png" alt="" class="mf">
+						</a>
+							
+					</li>
+					<li class="li5">
+						<a href="">
+							<img src="images/hj2.png" alt="">
+							<img src="images/hj3.png" alt="">
+						</a>
+							
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mt4">
+			<div class="clearfix">
+				<span class="p1">正在热映影片</span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>
+					
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt1 mt3-1 mt3-2">
+				<ul class="clearfix">
+					<li>
+						<a href="">
+							<img src="images/dy1.png" alt="" class="mf">
+							<p>黑衣人</p>
+						</a>
+							
+					</li>
+					<li>
+						<a href="">
+							<img src="images/dy2.png" alt="">
+							<p>追龙2</p>
+						</a>
+							
+					</li>
+					<li>
+						<a href="">
+							<img src="images/dy3.png" alt="">
+							<p>最好的我们</p>
+						</a>
+							
+					</li>
+				</ul>
+			</div>
+		</div>	
+		<div class="mt4">
+			<div class="clearfix">
+				<span class="p1 span2 span5-2">T-monkey美甲室</span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix">
+				<p>仅售45元，价值78元美甲</p>
+				<span class="span1 span7">
+					<p class="p3">912m</p>
+				</span>
+				<span class="span1 p2">￥23.8
+				</span>
+				<span class="span1 p5">￥70
+				</span>	
+				<span class="span1 p6">4.2折</span>			
+			</div>
+			
+		
+				
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt1 mt3-1 mt3-2">
+				<ul class="clearfix">
+					<li>
+						<a href="">
+							<img src="images/mj1.png" alt="" class="mf">
+							<p>绿猫眼美甲</p>
+						</a>
+							
+					</li>
+					<li>
+						<a href="">
+							<img src="images/mj2.png" alt="">
+							<p>红猫眼美甲</p>
+						</a>
+							
+					</li>
+					<li>
+						<a href="">
+							<img src="images/mj3.png" alt="">
+							<p>手部纯色芭比甲</p>
+						</a>
+							
+					</li>
+				</ul>
+			</div>
+		</div>			
+		<div class="mt4 mt6 mt8">
+			<div class="clearfix mg">
+				<span class=" span5-2 span11">适合看日出的浪漫地></span>
+				<span class="span1 span8">&times;</span>
+				<div class="clearfix"></div>
+			</div>				
+				<!-- <span class="xk4">点评高分店铺</span> -->
+			<div class="mt6-1">
+				<ul class="clearfix">
+					<li class="li3">
+						<a href="">
+							<img src="images/hld.png" alt="" class="mf">
+							<p>海陵岛</p>
+							<div class="tb1 clearfix">
+								<span class="span1 p2 span13">￥48/人
+						        </span>
+						        
+							</div>	
+						</a>
+							
+					</li>
+					<li class="li3">
+						<a href="">
+							<img src="images/djw.png" alt="">
+							<p>大角湾</p>
+							<div class="tb1 clearfix">
+								<span class="span1 p2 span13">￥25/人
+						        </span>
+						       
+							</div>
+						</a>
+							
+					</li>
+					<li class="li3">
+						<a href="">
+							<img src="images/yt.png" alt="">
+							<p>十里银滩</p>
+							<div class="tb1 clearfix">
+								<span class="span1 p2 span13">￥58/人
+						        </span>
+						       
+							</div>
+						</a>
+							
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+
+		<div class="last clearfix">
+			<div class="mt1 btm clearfix">
+				<ul class="clearfix">
+					<li>
+						<a href="index.html">
+						<img src="images/shouy1.png" alt="">
+							<p id="p18">首页</p>
+						</a>
+						
+					</li>
+					<li>
+						<a href="find.html">
+							<img src="images/fx1.png" alt="" >
+							<p>发现</p>
+						</a>
+						
+					</li>
+					<li>
+						<a href="book.html">
+							<img src="images/dd1.png" alt="" >
+							<p>订单</p>
+						</a>
+						
+					</li>
+					<li>
+						<a href="my.html">
+							<img src="images/wd3.png" alt="" >
+							<p>我的</p>
+						</a>
+						
+					</li>
+				</ul>
+
+		    </div>
+		</div>	
+	</div>
+</body>
+</html>

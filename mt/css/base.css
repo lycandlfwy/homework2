@@ -1,0 +1,52 @@
+* {
+	padding: 0px;
+	margin: 0px auto;
+	box-sizing: border-box;
+	/*去掉移动端的点击高亮颜色*/
+	-webkit-tap-highlight-color: transparent;
+	-moz-tap-highlight-color: transparent;
+	-o-tap-highlight-color: transparent;
+	-ms-tap-highlight-color: transparent;
+	tap-highlight-color: transparent;
+}
+body {
+	font-size: 14px;
+	/*定义默认的字体*/
+	font-family: "MicroSoft YaHei",sans-serif;
+	color: #333333;
+}
+[class^="icon_"] {
+	background: url(../images/sprites.png) no-repeat;
+	background-size: 200px 200px;
+}
+a {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: none;
+}
+ul,ol {
+	list-style: none;
+}
+input {
+	border: none;
+	outline: none;
+}
+.f_left {
+	float: left;
+}
+.f_right {
+	float: right;
+}
+/*解决父元素拥有浮动造成的崩塌现象*/
+.clearfix::before, 
+.clearfix::after {
+	content: "";
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+	display: block;
+	clear: both;
+
+}
