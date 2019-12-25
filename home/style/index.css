@@ -1,0 +1,78 @@
+/*.row{
+	border-bottom: 2px solid green;
+}
+.row div{
+	border-right: 2px solid green;
+}*/
+/* .row:nth-child(1) div:nth-child(1){
+	background: red;
+}
+.row:nth-child(1) div:nth-child(2){
+	background: green;
+}
+.row:nth-child(1) div:nth-child(3){
+	background: purple;
+}
+.row:nth-child(1) div:nth-child(4){
+	background: pink;
+}
+.row:nth-child(2) div:nth-child(1){
+	background: black;
+}
+.row:nth-child(2) div:nth-child(2){
+	background: blue;
+}
+.row:nth-child(2) div:nth-child(3){
+	background: orange;
+}
+.row:nth-child(2) div:nth-child(4){
+	background: green;
+}
+.row:nth-child(2) div:nth-child(5){
+	background: orange;
+} */
+/* .row:nth-child(1) div:nth-child(1){
+	background: red;
+}
+.row:nth-child(1) div:nth-child(2){
+	background: green;
+}
+.row:nth-child(1) div:nth-child(3){
+	background: orange;
+}
+.row:nth-child(2) div:nth-child(1){
+	background: purple;
+}
+.row:nth-child(2) div:nth-child(2){
+	background: blue;
+} */
+.row:nth-child(1) div:nth-child(1){
+	background: yellow;
+}
+.row:nth-child(1) div:nth-child(2){
+	background: purple;
+}
+.row:nth-child(1) div:nth-child(3){
+	background: grey;
+}
+.row:nth-child(1) div:nth-child(4){
+	background: purple;
+}
+.row:nth-child(1) div:nth-child(5){
+	background: yellow;
+}
+.row:nth-child(2) div:nth-child(1){
+	background: lightyellow;
+}
+.row:nth-child(2) div:nth-child(2){
+	background: purple;
+}
+.row:nth-child(2) div:nth-child(3){
+	background: pink;
+}
+.row:nth-child(2) div:nth-child(4){
+	background: purple;
+}
+.row:nth-child(2) div:nth-child(5){
+	background: yellow;
+}

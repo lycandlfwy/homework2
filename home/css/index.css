@@ -1,0 +1,13 @@
+.kp {
+	float: left;
+}
+.clearfix::before, 
+.clearfix::after {
+	content: "";
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+	display: block;
+	clear: both;
+
+}

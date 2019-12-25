@@ -1,0 +1,119 @@
+body {
+	background-color: #F4F4F4;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+}
+.header {
+	width: 100%;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	/*border: 1px solid red;*/
+}
+.container {
+	max-width: 960px;
+	height: 360px;
+	height: 6100px;
+	/*border: 1px solid pink;*/
+}
+.row {
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid green;*/
+}
+.row .col {
+
+	/*border: 1px solid pink;*/
+}
+
+.liimg {
+	width: 100%;
+	height: 320px;
+	/*border: 1px solid green;*/
+}
+
+.liimg .row {
+	width: 100%;
+	height: 150px;
+	/*border: 1px solid green;*/
+}
+.liimg .row .col {
+	cursor: pointer;
+}
+.liimg .row .col img {
+	width: 100%;
+	height: 95px;
+	/*border: 1px solid green;*/
+}
+.liimg .row .col p {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	margin-top: 8px;
+	/*border: 1px solid green;*/
+}
+.card_1 {
+	width: 100%;
+	height: 210px;
+	/*border: 1px solid green;*/
+}
+.card_1 ul {
+	width: 100%;
+	height: 210px;
+	/*border: 1px solid green;*/
+	list-style: none;
+	padding: 0px;
+}
+.card_1 ul li {
+	width: 48%;
+	height: 30px;
+	line-height: 30px;
+	/*border: 1px solid green;*/
+	float: left;
+	margin: 2px;
+}
+.card_1 ul li a{
+	text-decoration: none;
+	color: #999;
+}
+.card_1 ul li a:hover {
+	margin-left: 10px;
+	color: #999;
+}
+
+.card_2 {
+	width: 100%;
+	height: 300px;
+	/*border: 1px solid green;*/
+}
+.card_2 ul {
+	width: 100%;
+	height: 300px;
+	/*border: 1px solid green;*/
+	list-style: none;
+	padding: 0px;
+}
+.card_2 ul li {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	/*border: 1px solid green;*/
+	margin: 2px;
+}
+.card_2 ul li a{
+	text-decoration: none;
+	color: #999;
+}
+.card_2 ul li a:hover {
+	margin-left: 10px;
+	color: #999;
+}
+#loginToolBar {
+	width: 100%;
+	height: 40px;
+	/*border: 1px solid blue;*/
+}

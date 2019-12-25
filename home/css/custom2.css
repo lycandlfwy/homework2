@@ -1,0 +1,30 @@
+.nav,.boxes{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:space-between;
+}
+.nav a{
+	width:23%;
+}
+.boxes div{
+	flex:1 1 250px;
+	margin-right: 20px;
+	background-color: rgba(190,190,190,0.2);
+	padding: 20px 20px 0 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-flow: column;
+}
+.boxes .more{
+	margin-top: auto;
+}
+@media(max-width: 488px){
+	.nav,.boxes{
+		display: flex;
+		flex-flow: column;
+		align-items:flex-start;
+	}
+	.nav a{
+		height:23%;
+	}
+}

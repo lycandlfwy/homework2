@@ -1,0 +1,90 @@
+/*a是行内元素，所以横向排版，要响应式排版用弹性盒*/
+.nav,.boxes,.footer{
+	display: flex;
+	/*有横向排版和纵向排版，所以要加上它*/
+	flex-flow: row wrap;
+	/*让nav里的内容两端对齐*/
+	justify-content: space-between;
+}
+.nav a {
+	/*按钮的总和不能超过100%，所以每个不能大于25%,这个宽度是浏览器的23%*/
+	width: 23%;
+}
+
+ 
+.section {
+	/*border: 1px solid red;*/
+} 
+
+
+
+.info {
+	/*border: 2px solid orange;*/
+}
+.row {
+	/*height: 300px;*/
+	/*border: 2px solid orange;*/
+}
+.row .card {
+	float: left;
+	/*border: 2px solid orange;*/
+}
+.row .card a .card-footer {
+	color: gray;
+}
+.row .card a:hover .card-footer {
+	color: green;
+}
+/*轮播图*/
+.banner {
+	max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+	/*border: 1px solid green;*/
+}
+
+/*轮播图*/
+.zhedie {
+	max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+	/*border: 1px solid green;*/
+}
+
+.banner .carousel .tp .carousel-item img {
+	max-width: 960px;
+	height: 360px;
+}
+
+
+
+
+
+
+
+.boxes div {
+	/*弹性子盒的属性*/
+	flex:1 1 250px;
+	margin: 10px;
+	/*为了让用户更直观的看出段落，给它设置背景颜色加透明度*/
+	background-color: rgba(0,0,0,.1);
+	padding: 10px 10px 0 10px;
+	border-radius: 10px;
+	/*把子盒变成盒，*/
+	display: flex;
+	/*让子盒里的p标签纵向排版*/
+	flex-flow: column;
+}
+.boxes .more {
+	/*按钮向下对齐，就是div的高度减去p的高度，再减去more这个p的高度就是auto*/
+	margin-top: auto;
+}
+@media(max-width: 500px){
+	.nav{
+		flex-flow:column;
+	}
+	.nav a {
+		width: 100%;
+		margin-bottom: 3px;
+	}
+}
